@@ -1,0 +1,12 @@
+body {
+    background-image:url("https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-me-alimentar-melhor/noticias/2022/sim-nos-temos-banana-a-fruta-que-e-a-cara-do-brasil/texto-19-sim-nos-temos-banana-a-fruta-que-e-a-cara-do-brasil_1280x530px.png");
+    font-family: "Montserrat", sans-serif;
+}
+
+.cor {
+    color:rgb(108, 28, 28);
+}
+
+.item-especial {
+    font-style:italic;
+}
