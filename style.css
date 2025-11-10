@@ -3,10 +3,18 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.cor {
-    color:rgb(0, 0, 0);
-}
 
 .item-especial {
     font-weight: bold;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;  /* Texto na vertical */
+    justify-content: center; /* Horizontal */
+    text-align: center; /* Centraliza o texto */
+    min-height: 180px; 
+    padding: 16px;
+    border: 1px solid #ddd;
+    background: rgb(255, 252, 224);
 }
