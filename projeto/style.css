@@ -2,7 +2,7 @@
   --cor-primaria: rgb(201, 122, 69);
   --cor-fundo: #473118;
   --cor-card: rgba(78, 53, 24, 0.72);
-  --cor-texto: #000000;
+  --cor-texto: #ffffff;
 }
 
 * {
@@ -125,6 +125,12 @@ button:hover {
   gap: 16px;
   box-shadow: 0 20px 30px rgba(42, 29, 15, 0.562);
   backdrop-filter: blur(8px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 45px rgba(15, 23, 42, 0.55);
 }
 
 .card h2 {
@@ -160,6 +166,7 @@ button:hover {
   transition: transform 0.4s ease;
 }
 
+
 .galeria.ativa {
   transform: scale(1.03);
 }
@@ -189,4 +196,43 @@ button:hover {
   background: rgba(148, 95, 52, 0.3);
   border-left: 4px solid var(--cor-primaria);
   padding-left: 20px;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #7c4d31;
+  color: #ffffff;
+  padding: 14px 20px;
+  border-radius: 99px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 20px 35px rgba(204, 113, 38, 0.35);
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+.btn-whatsapp:hover {
+  transform: scale(1.07) translateY(-2px);
+  box-shadow: 0 25px 45px rgba(204, 113, 38, 0.45);
+}
+
+.galeria:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 45px rgba(173, 112, 42, 0.55);
+}
+
+.img:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 45px rgba(202, 143, 53, 0.55);
+}
+
+.img,
+.galeria,
+.card,
+.chip {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
