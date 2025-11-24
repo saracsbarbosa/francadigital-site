@@ -1,6 +1,7 @@
 body {
-    background-color:rgb(255, 252, 224);
+    background-color: rgba(255, 252, 224) ;
     font-family: "Montserrat", sans-serif;
+    margin: 0;
 }
 
 
@@ -8,7 +9,10 @@ body {
     font-weight: bold;
 }
 
-.conteudo {
+.heroimage {
+    background-image: url(https://static.itdg.com.br/images/240-155/53e47bf452300d58b8e741ae370eae4f/365870-original.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;  /* Texto na vertical */
     justify-content: center; /* Horizontal */
@@ -16,5 +20,51 @@ body {
     min-height: 180px; 
     padding: 16px;
     border: 1px solid #ddd;
-    background: rgb(255, 252, 224);
+}
+
+.logo img {
+    width: 96px;
+    height: auto;
+}
+
+.site-header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 32px;
+    background: rgba(255, 252, 224);
+    display: flex; /* corta os elementos se passar do tamanho */
+    box-shadow: 0 10px 24px rgba(102, 102, 102, 0.486);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 16px; /* espaço entre os elementos */
+}
+
+.informacoes .aluno {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 4px;
+}
+
+.informacoes .titulo-site {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+
+.site-nav a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    align-items: center;
 }

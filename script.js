@@ -11,5 +11,5 @@ const botao = document.getElementById("bnt");
 const mensagem = document.getElementById("mensagem");
 botao.addEventListener("click", (e) => {
     const valor = campoNome.value;
-    mensagem.textContent = "Oiii " + valor;
+    mensagem.textContent = "vish, nem sei o que dizer kkkkkkkkk";
 });
